@@ -1,0 +1,1219 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#SportingEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportingEvent",
+      "en" : "Sporting Event"
+    },
+    "comment" : {
+      "en" : "An organized competition or activity involving sports, attracting tourism interest."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ParkAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParkAttraction",
+      "en" : "Park Attraction"
+    },
+    "comment" : {
+      "en" : "A green area, often with recreational facilities, visited by tourists and locals alike."
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Price",
+      "en" : "Price"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#43",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "43",
+        "en" : "43"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#8.72",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "8.72",
+        "en" : "8.72"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#252",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "252",
+        "en" : "252"
+      }
+    } ],
+    "comment" : {
+      "en" : "The monetary cost associated with a tourism-related service or product."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "subClasses" : [ "12", "3", "13", "14", "15" ],
+    "comment" : {
+      "en" : "A planned public or social occasion that can be part of a tourist’s itinerary."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "en" : "Attraction"
+    },
+    "subClasses" : [ "26", "27", "5", "28", "29" ],
+    "comment" : {
+      "en" : "A place or activity that draws tourists due to its cultural, historical, natural, or recreational value."
+    },
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ItalianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "en" : "Italian Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant focused on serving Italian cuisine such as pasta, pizza, and regional specialties."
+    },
+    "id" : "32",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MediterraneanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "en" : "Mediterranean Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant that serves cuisine inspired by the countries bordering the Mediterranean Sea."
+    },
+    "id" : "19",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/page/Hotel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hotel",
+      "en" : "Hotel"
+    },
+    "subClasses" : [ "38", "43", "41", "31", "24" ],
+    "comment" : {
+      "en" : "A commercial establishment offering lodging, meals, and other guest services for travelers and tourists."
+    },
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TechnologicalEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnologicalEvent",
+      "en" : "Technological Event"
+    },
+    "comment" : {
+      "en" : "An event focusing on technology trends, innovations, and advancements, often drawing professionals and enthusiasts."
+    },
+    "id" : "13",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bad",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bad"
+    },
+    "id" : "34",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Excelent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Excelent"
+    },
+    "id" : "21",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Calification"
+    },
+    "subClasses" : [ "36", "34", "21" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "en" : "Cultural Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Castle",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Castle attraction in Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "Castle",
+        "en" : "Castle"
+      }
+    } ],
+    "comment" : {
+      "en" : "A tourist site of cultural significance, including traditions, arts, or heritage."
+    },
+    "id" : "28",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MuseumAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MuseumAttraction",
+      "en" : "Museum Attraction"
+    },
+    "comment" : {
+      "en" : "A location that displays collections of artistic, historical, or scientific interest."
+    },
+    "id" : "26",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "en" : "Beach Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Royal",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Royal hotel in Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "Royal",
+        "en" : "Royal"
+      }
+    } ],
+    "comment" : {
+      "en" : "A hotel located near or on a beach, catering to tourists seeking coastal experiences."
+    },
+    "id" : "41",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BusinessHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "en" : "Business Hotel"
+    },
+    "comment" : {
+      "en" : "A hotel offering services tailored to business travelers, including meeting rooms and Wi-Fi."
+    },
+    "id" : "31",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#JapaneseRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "en" : "Japanese Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant offering dishes and food traditions typical of Japanese culture."
+    },
+    "id" : "65",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MexicanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "en" : "Mexican Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Fusion",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Fusion Barcelona"
+      },
+      "labels" : {
+        "IRI-based" : "Fusion",
+        "en" : "Fusion"
+      }
+    } ],
+    "comment" : {
+      "en" : "A restaurant offering traditional dishes from Mexican culinary culture."
+    },
+    "id" : "69",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#GastronomicEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicEvent",
+      "en" : "Gastronomic Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Congress",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Gastronomic event in Barcelona's Congress"
+      },
+      "labels" : {
+        "IRI-based" : "Congress",
+        "en" : "Congress"
+      }
+    } ],
+    "comment" : {
+      "en" : "A food-related event showcasing regional or international cuisine and culinary practices."
+    },
+    "id" : "15",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachAttraction",
+      "en" : "Beach Attraction"
+    },
+    "comment" : {
+      "en" : "A coastal area known for its natural beauty, sand, and recreational water activities."
+    },
+    "id" : "29",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MonumentAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MonumentAttraction",
+      "en" : "Monument Attraction"
+    },
+    "comment" : {
+      "en" : "A historically significant structure or landmark that attracts visitors."
+    },
+    "id" : "27",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#RuralHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralHotel",
+      "en" : "Rural Hotel"
+    },
+    "comment" : {
+      "en" : "A hotel located in countryside or non-urban areas, often emphasizing nature and relaxation."
+    },
+    "id" : "43",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "en" : "Transport"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bus",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Bus transport"
+      },
+      "labels" : {
+        "IRI-based" : "Bus",
+        "en" : "Bus"
+      }
+    } ],
+    "comment" : {
+      "en" : "Means or systems of conveying people or goods from place to place in the context of tourism."
+    },
+    "id" : "47"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "47", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "10"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "6", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "en" : "Cultural Event"
+    },
+    "comment" : {
+      "en" : "A public occasion celebrating or showcasing cultural expressions and traditions."
+    },
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "en" : "Rating"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "4",
+        "en" : "4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#3.8",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "3.8",
+        "en" : "3.8"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4.5",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "comment" : {
+        "en" : "Value number"
+      },
+      "labels" : {
+        "IRI-based" : "4.5",
+        "en" : "4.5"
+      }
+    } ],
+    "comment" : {
+      "en" : "An evaluation score or classification indicating the quality of a tourism-related service or establishment."
+    },
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Average",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Average"
+    },
+    "id" : "36",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "en" : "Luxury Hotel"
+    },
+    "comment" : {
+      "en" : "A high-end hotel offering premium services and amenities for upscale travelers."
+    },
+    "id" : "38",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MusicalEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicalEvent",
+      "en" : "Musical Event"
+    },
+    "comment" : {
+      "en" : "An event where music performances are the central attraction, such as concerts or festivals."
+    },
+    "id" : "12",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Barcelona",
+      "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "https://dbpedia.org/page/Barcelona",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Barcelona city"
+      },
+      "labels" : {
+        "IRI-based" : "Barcelona",
+        "en" : "Barcelona"
+      }
+    } ],
+    "comment" : {
+      "en" : "A large human settlement that serves as a central point for tourism, including attractions, accommodation, and transport."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TouristHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristHotel",
+      "en" : "Tourist Hotel"
+    },
+    "comment" : {
+      "en" : "A hotel primarily designed to accommodate general tourists with standard services.e"
+    },
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "https://dbpedia.org/page/Restaurant",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "en" : "Restaurant"
+    },
+    "subClasses" : [ "19", "1", "65", "32", "69" ],
+    "comment" : {
+      "en" : "A place where people pay to sit and eat meals that are cooked and served on the premises."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#AndalusianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianRestaurant",
+      "en" : "Andalusian Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant specializing in cuisine from the Andalusian region of Spain."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasRestaurant",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasRestaurant",
+      "en" : "has Restaurant"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Indicates that a city or location offers or contains a restaurant."
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "has_Price",
+      "en" : "has Price"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Relates a tourism service or event to its price."
+    },
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#attractionName",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "attractionName",
+      "en" : "attraction name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The name of a tourist attraction, such as a museum, monument, or natural site."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "16"
+  }, {
+    "range" : "2",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "25",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "22",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "22",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "25",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "6",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "25",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "25",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#priceValue",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "priceValue",
+      "en" : "price value"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Represents the numerical cost associated with a tourism-related service, such as a hotel, restaurant, or event."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#transportType",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "transportType",
+      "en" : "transport type"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Indicates the type of transportation, such as bus, train, taxi, or metro."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityName",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "cityName",
+      "en" : "city name"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "The name of a city or urban location relevant to the tourism ontology."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasHotel",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasHotel",
+      "en" : "has Hotel"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Indicates that a city or location offers or contains a hotel."
+    },
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasAttraction",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasAttraction",
+      "en" : "has Attraction"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Relates a city to an attraction located within it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "range" : "6",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "6",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "4",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "4",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "6",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "has_Rating",
+      "en" : "has Rating"
+    },
+    "domain" : "60",
+    "comment" : {
+      "en" : "Relates a tourism resource to its user-assigned or system-generated rating."
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "range" : "4",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "ratingValue",
+      "en" : "rating value"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Represents the numerical rating given to a tourism resource, usually on a scale (e.g., 1 to 5)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasTransport",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "hasTransport",
+      "en" : "has Transport"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Indicates that a city or area provides access to a means of transportation."
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#eventName",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "eventName",
+      "en" : "event name"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Specifies the name or title of an event offered at a tourist destination."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasEvent",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasEvent",
+      "en" : "has Event"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Indicates that a city or destination hosts a specific event."
+    },
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#restaurantName",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "restaurantName",
+      "en" : "restaurant name"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "The official name or brand of a restaurant establishment."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityLocation",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "cityLocation",
+      "en" : "city location"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Provides the geographic location or coordinates of the city, such as latitude and longitude."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hotelName",
+    "baseIri" : "http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hotelName",
+      "en" : "hotel name"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "The official or commercial name of a hotel establishment."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "79"
+  }, {
+    "range" : "2",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "2",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  } ]
+}

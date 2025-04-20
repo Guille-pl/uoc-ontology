@@ -1,0 +1,1111 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasAttraction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasAttraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">Relates a city to an attraction located within it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Attraction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasEvent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">Indicates that a city or destination hosts a specific event.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasHotel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasHotel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">Indicates that a city or location offers or contains a hotel.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Hotel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasRestaurant -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasRestaurant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">Indicates that a city or location offers or contains a restaurant.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Restaurant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasTransport -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hasTransport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport"/>
+        <rdfs:comment xml:lang="en">Indicates that a city or area provides access to a means of transportation.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Transport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+        <rdfs:comment xml:lang="en">Relates a tourism service or event to its price.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Price</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+        <rdfs:comment xml:lang="en">Relates a tourism resource to its user-assigned or system-generated rating.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Rating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#attractionName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#attractionName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The name of a tourist attraction, such as a museum, monument, or natural site.</rdfs:comment>
+        <rdfs:label xml:lang="en">attraction name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityLocation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Provides the geographic location or coordinates of the city, such as latitude and longitude.</rdfs:comment>
+        <rdfs:label xml:lang="en">city location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#cityName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The name of a city or urban location relevant to the tourism ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">city name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#eventName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#eventName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specifies the name or title of an event offered at a tourist destination.</rdfs:comment>
+        <rdfs:label xml:lang="en">event name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hotelName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#hotelName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The official or commercial name of a hotel establishment.</rdfs:comment>
+        <rdfs:label xml:lang="en">hotel name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#priceValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#priceValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Represents the numerical cost associated with a tourism-related service, such as a hotel, restaurant, or event.</rdfs:comment>
+        <rdfs:label xml:lang="en">price value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Represents the numerical rating given to a tourism resource, usually on a scale (e.g., 1 to 5).</rdfs:comment>
+        <rdfs:label xml:lang="en">rating value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#restaurantName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#restaurantName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The official name or brand of a restaurant establishment.</rdfs:comment>
+        <rdfs:label xml:lang="en">restaurant name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#transportType -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#transportType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Indicates the type of transportation, such as bus, train, taxi, or metro.</rdfs:comment>
+        <rdfs:label xml:lang="en">transport type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#AndalusianRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#AndalusianRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">A restaurant specializing in cuisine from the Andalusian region of Spain.</rdfs:comment>
+        <rdfs:label xml:lang="en">Andalusian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A place or activity that draws tourists due to its cultural, historical, natural, or recreational value.</rdfs:comment>
+        <rdfs:label xml:lang="en">Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Average -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Average">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bad -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">A coastal area known for its natural beauty, sand, and recreational water activities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beach Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">A hotel located near or on a beach, catering to tourists seeking coastal experiences.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beach Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BusinessHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BusinessHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">A hotel offering services tailored to business travelers, including meeting rooms and Wi-Fi.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City">
+        <rdfs:comment xml:lang="en">A large human settlement that serves as a central point for tourism, including attractions, accommodation, and transport.</rdfs:comment>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">A tourist site of cultural significance, including traditions, arts, or heritage.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">A public occasion celebrating or showcasing cultural expressions and traditions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event">
+        <rdfs:comment xml:lang="en">A planned public or social occasion that can be part of a tourist’s itinerary.</rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Excelent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Excelent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Calification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#GastronomicEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#GastronomicEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">A food-related event showcasing regional or international cuisine and culinary practices.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gastronomic Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A commercial establishment offering lodging, meals, and other guest services for travelers and tourists.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hotel</rdfs:label>
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Hotel</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ItalianRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ItalianRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">A restaurant focused on serving Italian cuisine such as pasta, pizza, and regional specialties.</rdfs:comment>
+        <rdfs:label xml:lang="en">Italian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#JapaneseRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#JapaneseRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">A restaurant offering dishes and food traditions typical of Japanese culture.</rdfs:comment>
+        <rdfs:label xml:lang="en">Japanese Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#LuxuryHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#LuxuryHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">A high-end hotel offering premium services and amenities for upscale travelers.</rdfs:comment>
+        <rdfs:label xml:lang="en">Luxury Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MediterraneanRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MediterraneanRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">A restaurant that serves cuisine inspired by the countries bordering the Mediterranean Sea.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mediterranean Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MexicanRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MexicanRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant"/>
+        <rdfs:comment xml:lang="en">A restaurant offering traditional dishes from Mexican culinary culture.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mexican Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MonumentAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MonumentAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">A historically significant structure or landmark that attracts visitors.</rdfs:comment>
+        <rdfs:label xml:lang="en">Monument Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MuseumAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MuseumAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">A location that displays collections of artistic, historical, or scientific interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">Museum Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MusicalEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MusicalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">An event where music performances are the central attraction, such as concerts or festivals.</rdfs:comment>
+        <rdfs:label xml:lang="en">Musical Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ParkAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ParkAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Attraction"/>
+        <rdfs:comment xml:lang="en">A green area, often with recreational facilities, visited by tourists and locals alike.</rdfs:comment>
+        <rdfs:label xml:lang="en">Park Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price">
+        <rdfs:comment xml:lang="en">The monetary cost associated with a tourism-related service or product.</rdfs:comment>
+        <rdfs:label xml:lang="en">Price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating">
+        <rdfs:comment xml:lang="en">An evaluation score or classification indicating the quality of a tourism-related service or establishment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Restaurant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A place where people pay to sit and eat meals that are cooked and served on the premises.</rdfs:comment>
+        <rdfs:label xml:lang="en">Restaurant</rdfs:label>
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Restaurant</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#RuralHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#RuralHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">A hotel located in countryside or non-urban areas, often emphasizing nature and relaxation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rural Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#SportingEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#SportingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">An organized competition or activity involving sports, attracting tourism interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sporting Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TechnologicalEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TechnologicalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Event"/>
+        <rdfs:comment xml:lang="en">An event focusing on technology trends, innovations, and advancements, often drawing professionals and enthusiasts.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technological Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TouristHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#TouristHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+        <rdfs:comment xml:lang="en">A hotel primarily designed to accommodate general tourists with standard services.e</rdfs:comment>
+        <rdfs:label xml:lang="en">Tourist Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Price"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Means or systems of conveying people or goods from place to place in the context of tourism.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Barcelona -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Barcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#City"/>
+        <hasAttraction rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Castle"/>
+        <hasEvent rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Congress"/>
+        <hasHotel rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Royal"/>
+        <hasRestaurant rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Fusion"/>
+        <hasTransport rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bus"/>
+        <cityLocation>41.3874,2.1686</cityLocation>
+        <cityName>Barcelona</cityName>
+        <rdfs:comment xml:lang="en">Barcelona city</rdfs:comment>
+        <rdfs:label xml:lang="en">Barcelona</rdfs:label>
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Barcelona</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bus -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Transport"/>
+        <has_Price rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#8.72"/>
+        <transportType>Bus</transportType>
+        <rdfs:comment xml:lang="en">Bus transport</rdfs:comment>
+        <rdfs:label xml:lang="en">Bus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Castle -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Castle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#CulturalAttraction"/>
+        <has_Rating rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4.5"/>
+        <attractionName>Barcelona&apos;s Castle</attractionName>
+        <rdfs:comment xml:lang="en">Castle attraction in Barcelona</rdfs:comment>
+        <rdfs:label xml:lang="en">Castle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Congress -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Congress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#GastronomicEvent"/>
+        <eventName>Gastronomic Congress</eventName>
+        <rdfs:comment xml:lang="en">Gastronomic event in Barcelona&apos;s Congress</rdfs:comment>
+        <rdfs:label xml:lang="en">Congress</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Fusion -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Fusion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#MexicanRestaurant"/>
+        <has_Price rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#43"/>
+        <has_Rating rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#3.8"/>
+        <restaurantName>Fusion Barcelona</restaurantName>
+        <rdfs:comment xml:lang="en">Fusion Barcelona</rdfs:comment>
+        <rdfs:label xml:lang="en">Fusion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Royal -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Royal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#BeachHotel"/>
+        <has_Price rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#252"/>
+        <has_Rating rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4"/>
+        <hotelName>Royal Hotel</hotelName>
+        <rdfs:comment xml:lang="en">Royal hotel in Barcelona</rdfs:comment>
+        <rdfs:label xml:lang="en">Royal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#252 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#252">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+        <priceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">252</priceValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">252</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#3.8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#3.8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+        <ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</ratingValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">3.8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+        <ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</ratingValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4.5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#4.5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Rating"/>
+        <ratingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</ratingValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">4.5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#43 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#43">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+        <priceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43</priceValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">43</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#8.72 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#8.72">
+        <rdf:type rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Price"/>
+        <priceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.72</priceValue>
+        <rdfs:comment xml:lang="en">Value number</rdfs:comment>
+        <rdfs:label xml:lang="en">8.72</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#h">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#v">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#v"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#v"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                        <swrl:arguments>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:resource="urn:swrl:var#v"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Average"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#v"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThanOrEqual"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#v"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Bad"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Hotel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#has_Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#ratingValue"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#v"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="urn:swrl:var#v"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/guill/ontologies/2025/3/untitled-ontology-7#Excelent"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
